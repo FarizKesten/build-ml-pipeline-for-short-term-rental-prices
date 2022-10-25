@@ -36,6 +36,9 @@ def go(args):
     df['last_review'].fillna(value='', inplace=True)
     df['reviews_per_month'].fillna(value='', inplace=True)
 
+    idx = df['longitude'].between(-74.25, -73.50) & df['latitude'].between(40.5, 41.2)
+    df = df[idx].copy()
+
     with tempfile.NamedTemporaryFile(mode='wb+') as fp:
         df.to_csv(fp.name, index=False)
         artifact = wandb.Artifact(
