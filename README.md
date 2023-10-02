@@ -1,4 +1,5 @@
 # Build an ML Pipeline for Short-Term Rental Prices in NYC
+Example Scenario
 You are working for a property management company renting rooms and properties for short periods of 
 time on various rental platforms. You need to estimate the typical price for a given property based 
 on the price of similar properties. Your company receives new data in bulk every week. The model needs 
@@ -32,10 +33,7 @@ In this project you will build such a pipeline.
 - [Cleaning up](#cleaning-up)
 
 ## Preliminary steps
-### Fork the Starter kit
-Go to [https://github.com/udacity/build-ml-pipeline-for-short-term-rental-prices.git](https://github.com/udacity/build-ml-pipeline-for-short-term-rental-prices.git)
-and click on `Fork` in the upper right corner. This will create a fork in your Github account, i.e., a copy of the
-repository that is under your control. Now clone the repository locally so you can start working on it:
+### Clone this repo
 
 ```
 git clone https://github.com/[your github username]/build-ml-pipeline-for-short-term-rental-prices.git
